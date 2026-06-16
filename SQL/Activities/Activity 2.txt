@@ -1,0 +1,12 @@
+--Activity2
+
+INSERT INTO SALESMAN (Salesman_id, Salesman_name, Salesman_City, Commission)
+VALUES ('1000', 'John', 'Abc', '10');
+
+INSERT ALL
+INTO SALESMAN VALUES (1001, 'James', 'Def', 11)
+INTO SALESMAN VALUES (1002, 'Peter', 'Ghi', 12)
+INTO SALESMAN VALUES (1003, 'Jack', 'Jkl', 13)
+INTO SALESMAN VALUES (1004, 'Bob', 'Mno', 14)
+INTO SALESMAN VALUES (1005, 'Helen', 'Pqr', 15)
+SELECT 1 FROM DUAL;

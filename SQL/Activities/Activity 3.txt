@@ -1,0 +1,10 @@
+--Activity3
+
+--Show data from the salesman_id and city columns
+SELECT Salesman_id, Salesman_City FROM SALESMAN
+
+-- Show data of salesman from Mno
+SELECT * FROM Salesman WHERE Salesman_City = 'Mno'
+
+-- Show salesman_id and commission of Paul Adam
+Select Salesman_id, Commission FROM SALESMAN WHERE Salesman_name = 'Peter'

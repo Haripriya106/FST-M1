@@ -1,0 +1,8 @@
+--Activity1
+
+CREATE TABLE Salesman(
+    Salesman_ID int PRIMARY KEY,
+    Salesman_name varchar(20),
+    Salesman_City varchar(20),
+    Commission int
+);
