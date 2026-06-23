@@ -1,0 +1,12 @@
+fruits = {
+    "Orange": 100,
+    "Apple": 60,
+    "Strawberry": 180,
+    "Mosambi": 80,
+    "Mango": 120
+}
+fruit_name = input("Enter the fruit name: ").lower()
+if fruit_name in fruits:
+    print(f"{fruit_name} is available at price {fruits[fruit_name]} per kg.")
+else:
+    print(f"Sorry, {fruit_name} is not available.")
