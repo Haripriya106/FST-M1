@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 9 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-CrmSuite" class="navigator-link">
+              <span class="suite-name border-failed">CrmSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-CrmSuite" class="navigator-link ">
+                    <span>C:\Users\003OTO744\eclipse-workspace\fst-seleniumproject\CRM-Selenium\src\test\java\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-CrmSuite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-CrmSuite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-CrmSuite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-CrmSuite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-CrmSuite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-CrmSuite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 9 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CrmSuite" class="hide-methods failed suite-CrmSuite"> (hide)</a> <!-- hide-methods failed suite-CrmSuite -->
+                      <a href="#" panel-name="suite-CrmSuite" class="show-methods failed suite-CrmSuite"> (show)</a> <!-- show-methods failed suite-CrmSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CrmSuite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="getCopyrightText">getCopyrightText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="getHeaderImageUrl">getHeaderImageUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="getNavigationMenuColor">getNavigationMenuColor</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="loginToSite">loginToSite</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="readAdditionalInformationPopup">readAdditionalInformationPopup</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="traverseAccountsTable">traverseAccountsTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="traverseLeadsTable">traverseLeadsTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="verifyActivitiesMenuExists">verifyActivitiesMenuExists</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-CrmSuite" title="crm.CrmTest" class="method navigator-link" hash-for-method="verifyWebsiteTitle">verifyWebsiteTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CrmSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-CrmSuite" class="panel CrmSuite">
+          <div class="suite-CrmSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">crm.CrmTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getCopyrightText">
+                  </a> <!-- getCopyrightText -->
+                  <span class="method-name">getCopyrightText</span>
+                  <div class="stack-trace">java.lang.IndexOutOfBoundsException: Index 0 out of bounds for length 0
+	at java.base/jdk.internal.util.Preconditions.outOfBounds(Preconditions.java:64)
+	at java.base/jdk.internal.util.Preconditions.outOfBoundsCheckIndex(Preconditions.java:70)
+	at java.base/jdk.internal.util.Preconditions.checkIndex(Preconditions.java:248)
+	at java.base/java.util.Objects.checkIndex(Objects.java:372)
+	at java.base/java.util.ArrayList.get(ArrayList.java:459)
+	at crm.CrmTest.getCopyrightText(CrmTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getHeaderImageUrl">
+                  </a> <!-- getHeaderImageUrl -->
+                  <span class="method-name">getHeaderImageUrl</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: .suitecrm-logo img, #login img
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dd9e4dbc-75d9-4a0d-859c-9795892b79d7, findElement {using=css selector, value=.suitecrm-logo img, #login img}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 8252, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dd9e4dbc-75d9-4a0d-859c-9795892b79d7
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.getHeaderImageUrl(CrmTest.java:64)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getNavigationMenuColor">
+                  </a> <!-- getNavigationMenuColor -->
+                  <span class="method-name">getNavigationMenuColor</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;user_name&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [fc669878-9b5d-457c-9707-f3e496603b59, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29896, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: fc669878-9b5d-457c-9707-f3e496603b59
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.login(CrmTest.java:45)
+	at crm.CrmTest.getNavigationMenuColor(CrmTest.java:92)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToSite">
+                  </a> <!-- loginToSite -->
+                  <span class="method-name">loginToSite</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;user_name&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [60800156-41a6-4448-8cd8-6ad4bf2e18be, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25864, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 60800156-41a6-4448-8cd8-6ad4bf2e18be
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.login(CrmTest.java:45)
+	at crm.CrmTest.loginToSite(CrmTest.java:82)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="readAdditionalInformationPopup">
+                  </a> <!-- readAdditionalInformationPopup -->
+                  <span class="method-name">readAdditionalInformationPopup</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;user_name&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8c8806eb-ba86-4220-b29a-e4721d372065, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 3184, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 8c8806eb-ba86-4220-b29a-e4721d372065
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.login(CrmTest.java:45)
+	at crm.CrmTest.readAdditionalInformationPopup(CrmTest.java:112)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="traverseAccountsTable">
+                  </a> <!-- traverseAccountsTable -->
+                  <span class="method-name">traverseAccountsTable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;user_name&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [7e6bf7a5-1ac2-410e-9960-52f9ac08f606, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 30064, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 7e6bf7a5-1ac2-410e-9960-52f9ac08f606
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.login(CrmTest.java:45)
+	at crm.CrmTest.traverseAccountsTable(CrmTest.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="traverseLeadsTable">
+                  </a> <!-- traverseLeadsTable -->
+                  <span class="method-name">traverseLeadsTable</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;user_name&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [dcfbd5fa-cf26-4a73-8751-bb37b50370d9, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 29452, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: dcfbd5fa-cf26-4a73-8751-bb37b50370d9
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.login(CrmTest.java:45)
+	at crm.CrmTest.traverseLeadsTable(CrmTest.java:146)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyActivitiesMenuExists">
+                  </a> <!-- verifyActivitiesMenuExists -->
+                  <span class="method-name">verifyActivitiesMenuExists</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;user_name&apos;]
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#nosuchelementexception
+Build info: version: &apos;4.40.0&apos;, revision: &apos;b3333f1&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.16&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [1a2264d2-a820-48d1-94bb-958cbb81a20a, findElement {using=name, value=user_name}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 147.0.2, moz:accessibilityChecks: false, moz:buildID: 20260126151322, moz:geckodriverVersion: 0.37.1, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 18420, moz:profile: C:\Users\003OTO~1\AppData\L..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, userAgent: Mozilla/5.0 (Windows NT 10....}
+Session ID: 1a2264d2-a820-48d1-94bb-958cbb81a20a
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:166)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:67)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:424)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:418)
+	at crm.CrmTest.login(CrmTest.java:45)
+	at crm.CrmTest.verifyActivitiesMenuExists(CrmTest.java:102)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyWebsiteTitle">
+                  </a> <!-- verifyWebsiteTitle -->
+                  <span class="method-name">verifyWebsiteTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [SuiteCRM] but found [ExcelEx Express · Logistics LLP]
+	at crm.CrmTest.verifyWebsiteTitle(CrmTest.java:56)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 33 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CrmSuite-class-failed -->
+        </div> <!-- panel CrmSuite -->
+        <div panel-name="test-xml-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\003OTO744\eclipse-workspace\fst-seleniumproject\CRM-Selenium\src\test\java\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;CrmSuite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;CrmTests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;crm.CrmTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- CrmTests --&gt;
+&lt;/suite&gt; &lt;!-- CrmSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CrmSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">CrmTests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CrmSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CrmSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CrmSuite');
+function tableData_CrmSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getCopyrightText')
+data.setCell(0, 2, 'crm.CrmTest')
+data.setCell(0, 3, 1152);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyWebsiteTitle')
+data.setCell(1, 2, 'crm.CrmTest')
+data.setCell(1, 3, 1054);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyActivitiesMenuExists')
+data.setCell(2, 2, 'crm.CrmTest')
+data.setCell(2, 3, 998);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'traverseLeadsTable')
+data.setCell(3, 2, 'crm.CrmTest')
+data.setCell(3, 3, 908);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'getNavigationMenuColor')
+data.setCell(4, 2, 'crm.CrmTest')
+data.setCell(4, 3, 781);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'getHeaderImageUrl')
+data.setCell(5, 2, 'crm.CrmTest')
+data.setCell(5, 3, 770);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'traverseAccountsTable')
+data.setCell(6, 2, 'crm.CrmTest')
+data.setCell(6, 3, 730);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginToSite')
+data.setCell(7, 2, 'crm.CrmTest')
+data.setCell(7, 3, 680);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'readAdditionalInformationPopup')
+data.setCell(8, 2, 'crm.CrmTest')
+data.setCell(8, 3, 671);
+window.suiteTableData['CrmSuite']= { tableData: data, tableDiv: 'times-div-CrmSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 7 seconds</span>
+              <div id="times-div-CrmSuite">
+              </div> <!-- times-div-CrmSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CrmSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CrmSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">crm.CrmTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getCopyrightText</span>
+                <span class="method-start">3764 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4920 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5970 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getHeaderImageUrl</span>
+                <span class="method-start">9441 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11234 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">getNavigationMenuColor</span>
+                <span class="method-start">14463 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15249 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16222 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginToSite</span>
+                <span class="method-start">19549 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20233 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21241 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">readAdditionalInformationPopup</span>
+                <span class="method-start">24544 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25217 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26235 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">traverseAccountsTable</span>
+                <span class="method-start">29638 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30381 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">31584 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">traverseLeadsTable</span>
+                <span class="method-start">34982 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">35893 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">37087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyActivitiesMenuExists</span>
+                <span class="method-start">40977 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">41975 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">42992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyWebsiteTitle</span>
+                <span class="method-start">46731 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">47787 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

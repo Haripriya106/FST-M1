@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [CrmSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="CrmTests(failed)">
+    <classes>
+      <class name="crm.CrmTest">
+        <methods>
+          <include name="verifyActivitiesMenuExists"/>
+          <include name="readAdditionalInformationPopup"/>
+          <include name="getCopyrightText"/>
+          <include name="loginToSite"/>
+          <include name="verifyWebsiteTitle"/>
+          <include name="setUp"/>
+          <include name="traverseLeadsTable"/>
+          <include name="tearDown"/>
+          <include name="traverseAccountsTable"/>
+          <include name="getNavigationMenuColor"/>
+          <include name="getHeaderImageUrl"/>
+        </methods>
+      </class> <!-- crm.CrmTest -->
+    </classes>
+  </test> <!-- CrmTests(failed) -->
+</suite> <!-- Failed suite [CrmSuite] -->
