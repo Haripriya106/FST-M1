@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-09-06T17:30:30 IST" name="Default suite" finished-at="2026-09-06T17:30:38 IST" duration-ms="8176">
+    <groups>
+    </groups>
+    <test started-at="2026-09-06T17:30:30 IST" name="Default test" finished-at="2026-09-06T17:30:38 IST" duration-ms="8176">
+      <class name="activities.Activity1">
+        <test-method signature="addNewPet()[pri:1, instance:activities.Activity1@23348b5d]" started-at="2026-09-06T17:30:30 IST" name="addNewPet" finished-at="2026-09-06T17:30:35 IST" duration-ms="4983" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewPet -->
+        <test-method signature="getPetInfo()[pri:2, instance:activities.Activity1@23348b5d]" started-at="2026-09-06T17:30:35 IST" name="getPetInfo" finished-at="2026-09-06T17:30:36 IST" duration-ms="1638" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getPetInfo -->
+        <test-method signature="deletePet()[pri:3, instance:activities.Activity1@23348b5d]" started-at="2026-09-06T17:30:36 IST" name="deletePet" finished-at="2026-09-06T17:30:38 IST" duration-ms="1479" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deletePet -->
+      </class> <!-- activities.Activity1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
