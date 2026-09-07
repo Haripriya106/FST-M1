@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="20.014" tests="12" skipped="0" failures="0" errors="0">
+<testcase classname="Basic Syntax" name="Opening a webpage using Selenium" time="1.952">
+<system-out><![CDATA[
+Given user is on the TS homepage............................................passed
+When the user clicks on the About Us link...................................passed
+Then they are redirected to another page....................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Activity to test the login feature" name="Successful login" time="0.979">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When the user enters username and password..................................passed
+And clicks the submit button................................................passed
+Then get the confirmation message and verify it.............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing with Tags" name="Test for Simple Alert" time="0.416">
+<system-out><![CDATA[
+Given User is on the page...................................................passed
+When User clicks the Simple Alert button....................................passed
+Then Alert opens............................................................passed
+And Read the text from it and print it......................................passed
+And Close the alert.........................................................passed
+And Read the result text....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing with Tags" name="Test for Confirm Alert" time="0.295">
+<system-out><![CDATA[
+Given User is on the page...................................................passed
+When User clicks the Confirmation Alert button..............................passed
+Then Alert opens............................................................passed
+And Read the text from it and print it......................................passed
+And Close the alert with Cancel.............................................passed
+And Read the result text....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing with Tags" name="Test for Prompt Alert" time="0.291">
+<system-out><![CDATA[
+Given User is on the page...................................................passed
+When User clicks the Prompt Alert button....................................passed
+Then Alert opens............................................................passed
+And Read the text from it and print it......................................passed
+And Write a custom message in it............................................passed
+And Close the alert.........................................................passed
+And Read the result text....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing with Tags" name="Testing with Prompt Alert - #1.1" time="0.28">
+<system-out><![CDATA[
+Given User is on the page...................................................passed
+When User clicks the Simple Alert button....................................passed
+Then Alert opens............................................................passed
+And Read the text from it and print it......................................passed
+And Close the alert.........................................................passed
+And Read the result text....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing with Tags" name="Testing with Prompt Alert - #1.2" time="0.276">
+<system-out><![CDATA[
+Given User is on the page...................................................passed
+When User clicks the Confirmation Alert button..............................passed
+Then Alert opens............................................................passed
+And Read the text from it and print it......................................passed
+And Close the alert.........................................................passed
+And Read the result text....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Testing with Tags" name="Testing with Prompt Alert - #1.3" time="0.294">
+<system-out><![CDATA[
+Given User is on the page...................................................passed
+When User clicks the Prompt Alert button....................................passed
+Then Alert opens............................................................passed
+And Read the text from it and print it......................................passed
+And Close the alert.........................................................passed
+And Read the result text....................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Data driven test without Examples" name="Testing with correct data from inputs" time="0.898">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When the user enters "admin" and "password".................................passed
+And clicks the submit button................................................passed
+Then get the confirmation text and verify message as "Welcome Back, Admin!".passed
+]]></system-out>
+</testcase>
+<testcase classname="Data driven test with Examples" name="Testing Login with Example - #1.1" time="0.897">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When the user enters "admin" and "password123"..............................passed
+And clicks the submit button................................................passed
+Then get the confirmation text and verify message as "Invalid credentials"..passed
+]]></system-out>
+</testcase>
+<testcase classname="Data driven test with Examples" name="Testing Login with Example - #1.2" time="0.865">
+<system-out><![CDATA[
+Given the user is on the login page.........................................passed
+When the user enters "admin" and "wrongPassword"............................passed
+And clicks the submit button................................................passed
+Then get the confirmation text and verify message as "Invalid credentials"..passed
+]]></system-out>
+</testcase>
+<testcase classname="To test input with Datatables" name="Adding items to a to-do list" time="6.592">
+<system-out><![CDATA[
+Given user is on the To-Do list page........................................passed
+When user adds the following tasks..........................................passed
+Then they can see the task added to the list................................passed
+]]></system-out>
+</testcase>
+</testsuite>
